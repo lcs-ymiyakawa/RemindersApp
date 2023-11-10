@@ -11,6 +11,7 @@
 		02B328CD2AFACC7E005022F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B328CC2AFACC7E005022F1 /* ContentView.swift */; };
 		02B328CF2AFACC80005022F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B328CE2AFACC80005022F1 /* Assets.xcassets */; };
 		02B328D22AFACC80005022F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B328D12AFACC80005022F1 /* Preview Assets.xcassets */; };
+		02B328D92AFACD56005022F1 /* ToDoNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B328D82AFACD56005022F1 /* ToDoNotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		02B328CC2AFACC7E005022F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02B328CE2AFACC80005022F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B328D12AFACC80005022F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02B328D82AFACD56005022F1 /* ToDoNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoNotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				02B328D12AFACC80005022F1 /* Preview Assets.xcassets */,
+				02B328D82AFACD56005022F1 /* ToDoNotes.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B328CD2AFACC7E005022F1 /* ContentView.swift in Sources */,
+				02B328D92AFACD56005022F1 /* ToDoNotes.swift in Sources */,
 				02B328CB2AFACC7E005022F1 /* RemindersAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

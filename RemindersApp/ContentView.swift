@@ -9,11 +9,40 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 17) {
+            // Top line
+            HStack {
+                Text("く Lists")
+                    .font(.custom("bold", size: 23))
+                Spacer()
+                Image(systemName: "square.and.arrow.up")
+                Image(systemName: "ellipsis.circle")
+            }
+            .foregroundColor(.blue)
+            
+            // Title
+            HStack {
+                Text("To do")
+                    .font(.custom("bold", size: 40))
+                    .fontWeight(.bold)
+                .foregroundStyle(.blue)
+                Spacer()
+            }
+            
+            // Note reminders
+            
+            Spacer()
+            
+            // Add new reminder
+            HStack {
+                Image(systemName: "plus.circle.fill")
+                    .font(.custom("bold", size: 28))
+                Text("New Reminder")
+                    .font(.custom("bold", size: 22))
+                Spacer()
+            }
+            .foregroundColor(.blue)
+            
         }
         .padding()
     }
