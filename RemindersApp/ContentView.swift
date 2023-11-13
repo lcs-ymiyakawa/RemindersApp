@@ -28,9 +28,16 @@ struct ContentView: View {
                 .foregroundStyle(.blue)
                 Spacer()
             }
-            
             // Note reminders
             
+            RemindersView(title: "Call auto body shop", date: "2023-11-16")
+            RemindersView(title: "Feed Piper", date: "Tomorrow, 8:00 AM, ⇆ Daily")
+            RemindersView(title: "Write lesson about interactive apps", date: "Tomorrow, 6:00 PM")
+            RemindersView(title: "Take Piper to the vet", date: "2023-11-29, 3:00 PM")
+            RemindersView(title: "Drop off donations at Goodwill", date: "2023-11-11")
+            RemindersView(title: "Call plumber about clog in sink", date: "Tomorrow, 2:00 PM")
+            RemindersView(title: "Call dentist to schedule appointment", date: "2023-11-06, 4:00 PM")
+            RemindersView(title: "Call mechanic to get TARDIS repaired", date: "Tomorrow, 12:00 PM")
             Spacer()
             
             // Add new reminder
